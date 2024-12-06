@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bb59a8a-31dd-4e9a-89da-b78b26bc39ed" name="Changes" comment="Alteração do build.gradle.kts e alteração no nome do pacote">
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    <list default="true" id="4bb59a8a-31dd-4e9a-89da-b78b26bc39ed" name="Changes" comment="Commit de classes de exemplo">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +78,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
@@ -101,11 +103,29 @@
       <option name="project" value="LOCAL" />
       <updated>1733507521462</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Remoção de variavel desnecessária">
+      <option name="closed" value="true" />
+      <created>1733507567703</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733507567703</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit de classes de exemplo">
+      <option name="closed" value="true" />
+      <created>1733507730076</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733507730076</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Alteração do build.gradle.kts e alteração no nome do pacote" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alteração do build.gradle.kts e alteração no nome do pacote" />
+    <MESSAGE value="Remoção de variavel desnecessária" />
+    <MESSAGE value="Commit de classes de exemplo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit de classes de exemplo" />
   </component>
 </project>
