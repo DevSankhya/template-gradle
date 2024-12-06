@@ -4,7 +4,7 @@ import java.io.ByteArrayOutputStream
 import java.time.LocalDateTime
 
 plugins {
-    kotlin("jvm") version "1.9.22"
+    kotlin("jvm") version "1.9.22" // Caso não queira utilizar kotlin, só remover/comentar este plugin
     id("java")
     id("com.github.johnrengelman.shadow") version "8.1.1"
     id("de.undercouch.download") version "5.6.0"
@@ -12,6 +12,7 @@ plugins {
 
 // Propriedades customizadas(arquivo "gradle.properties")
 val githubToken: String by project
+
 
 
 // Variaveis de uso geral
@@ -25,8 +26,8 @@ val skwVersion = "master"
 sourceSets {
     val kotlin: SourceDirectorySet? = null
     main {
-        if (isKotlinPresent) kotlin?.srcDirs("src/main/kotlin")
-        java.srcDirs("src/main/java", "src/main/kotlin")
+        if(isKotlinPresent) kotlin?.srcDirs("src/main/kotlin")
+        java.srcDir("src/main/java")
         resources.srcDir("src/main/resources")
     }
 }
