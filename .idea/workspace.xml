@@ -5,78 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91476ab0-b0c1-4717-83fa-ff54ef366837" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/sankhya/acoesfundacaodocancer/kt/BtnKt.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/SankhyaW-extensions.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/commons-codec-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/itextpdf-5.5.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/jape.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/jasperreports-4.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/jasperreports-6.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/mge-modelcore.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/org-apache-commons-codec.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/org.json.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/print-service-base.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/sanutil.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/sanws.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/skw-cuckoo.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/skwextensiontool.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/BtnAaaateste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/BtnJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/extensions/AcaoAtualizarPedido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/extensions/AcaoCarregarPreco.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/extensions/AcaoConciliarManual.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/extensions/AcaoConciliarPedido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/extensions/AcaoConfirmarPedido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/extensions/AcaoFaturarPacienteNew.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/extensions/AcaoLerPlanilha.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/extensions/AcaoLerPlanilhas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/extensions/AcaoMudarTabelaCompraVenda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/extensions/JobGerarArquivo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/model/Apis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/model/CentralEvents.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/model/DetalheClientes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/model/DetalheDespesa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/model/DetalheEstoque.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/model/DetalheProdutos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/model/DetalheVendas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/model/DetalheVendasItens.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/model/DetalheVendedores.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/model/GerarHeaderArquivoClientes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/model/GerarHeaderArquivoEstoque.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/model/GerarHeaderArquivoProdutos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/model/GerarHeaderArquivoVendas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/model/GerarHeaderArquivoVendedores.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/model/ItemNota.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/model/MailJava.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/model/Note.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/parameters/parameter.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/services/DBAcessService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/services/DBAcessServiceUltramega.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/services/MailJavaSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/services/ProjectControllerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/services/PropertiesService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/services/Record.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/services/SWServiceInvoker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/services/SkwServicoCompras.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/util/ConvertEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/util/DateUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/util/DoubleUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/util/EnviromentUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/util/LogCatcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/util/LogConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/util/LogType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/util/ReportHelperNfe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sankhya/acoesfundacaodocancer/util/XMLUtil.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,13 +59,6 @@
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
                 <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="TemplateGradle" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-                <item name="org.jetbrains.kotlin:kotlin-stdlib:1.9.22" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -159,12 +82,12 @@
     &quot;assignee&quot;: &quot;Luisricardo2825&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DevSankhya/template-gradle.git",
-    "accountId": "8f817a3b-8df5-488a-a808-50cc466e1181"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DevSankhya/template-gradle.git&quot;,
+    &quot;accountId&quot;: &quot;8f817a3b-8df5-488a-a808-50cc466e1181&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
@@ -199,7 +122,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Repositorios/java/redome/AcoesFundacaoDoCancerPlanilhas",
+    "last_opened_file_path": "D:/Repositorios/java/template-gradle/settings.gradle.kts",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15332031",
     "project.structure.side.proportion": "0.55427253",

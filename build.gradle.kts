@@ -10,17 +10,22 @@ plugins {
     id("de.undercouch.download") version "5.6.0"
 }
 
+// Propriedades customizadas(arquivo "gradle.properties")
 val githubToken: String by project
 
 
+// Variaveis de uso geral
+val isKotlinPresent = project.hasProperty("kotlin")
 group = "br.com.sankhya.ce"
 version = "1.0"
 val javaVersion = JavaLanguageVersion.of(8)
 val skwVersion = "master"
 
+
 sourceSets {
+    val kotlin: SourceDirectorySet? = null
     main {
-        kotlin.srcDirs("src/main/java", "src/main/kotlin")
+        if (isKotlinPresent) kotlin?.srcDirs("src/main/kotlin")
         java.srcDirs("src/main/java", "src/main/kotlin")
         resources.srcDir("src/main/resources")
     }
@@ -176,7 +181,6 @@ tasks.named("shadowJar", ShadowJar::class.java) {
     dependsOn("downloadFile")
     manifestValues
     archiveClassifier.set("fat")
-
     dependencies {
         // Get kotlin dependecy string
         dependenciesToKeep.map {
@@ -185,6 +189,8 @@ tasks.named("shadowJar", ShadowJar::class.java) {
     }
     // Get libs folder and add to jar
     from(files("build/tmp")) {
+        onlyIf { isKotlinPresent }
+        logger.info("Adicionando kotlin-stdlib ao projeto...")
         dependencies {
             include(dependency("org.jetbrains.kotlin:kotlin-stdlib:1.3.50"))
             include(dependency("org.jetbrains.kotlin:kotlin-reflect:1.3.50"))
@@ -194,7 +200,7 @@ tasks.named("shadowJar", ShadowJar::class.java) {
 }
 
 tasks.register<Download>("downloadFile") {
-    onlyIf { !file("build/tmp/kotlin-stdlib-1.3.50.jar").exists() }
+    onlyIf { isKotlinPresent && !file("build/tmp/kotlin-stdlib-1.3.50.jar").exists() }
     src("https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.3.50/kotlin-stdlib-1.3.50.jar")
     dest("build/tmp/kotlin-stdlib-1.3.50.jar")
     overwrite(true)
